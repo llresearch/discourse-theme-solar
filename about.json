@@ -1,0 +1,30 @@
+{
+  "name": "Solar",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+  },
+  "color_schemes": {
+    "Dark": {
+      "primary": "f2f2f2",
+      "primary-medium": "f8f8f2",
+      "secondary": "282a36",
+      "tertiary": "bd93f9",
+      "quaternary": "8be9fd",
+      "header_background": "282a36",
+      "header_primary": "14151f",
+      "highlight": "f1fa8c",
+      "danger": "ff5555",
+      "success": "50fa7b",
+      "love": "ff79c6"
+    }
+  },
+  "modifiers": {
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}

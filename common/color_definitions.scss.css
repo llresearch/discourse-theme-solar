@@ -1,0 +1,4 @@
+:root {
+    --primary-rgb: #{hexToRGB(var(--primary))};
+    --secondary-rgb: #{hexToRGB(var(--secondary))};
+}
