@@ -8,7 +8,6 @@ html {
 }
 
 #main {
-    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0,0,0,0) 100%);
     margin-top: 15rem;
 }
 
@@ -170,9 +169,9 @@ tbody {
 /**
  * Apply glass effect
  */
-.d-header.wrap {
+.d-header > .wrap {
     // background glass effect
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.3);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
