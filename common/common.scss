@@ -233,7 +233,11 @@ tbody {
     background: none;
 }
 
-.boxed.white {
+.group-details-container,
+.user-content,
+.boxed.white,
+.loading-container
+{
     background: none;
 }
 
@@ -243,4 +247,13 @@ tbody {
 
 .dashboard-reports .report {
     background: #141414;
+}
+
+.groups-boxes .group-box {
+    background: #141414;
+}
+
+.group-members {
+    background: #141414;
+    margin-top: 0rem;
 }
