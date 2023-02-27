@@ -215,7 +215,10 @@ tbody {
 
 .category-list-item,
 .subcategory-list-item {
-    border: 1px solid;
+    border-left: 1px solid currentColor;
+    border-right: 1px solid currentColor;
+    border-top: 1px solid currentColor;
+    border-bottom: 1px solid currentColor;
 }
 
 .admin-content {
