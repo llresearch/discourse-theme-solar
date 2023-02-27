@@ -168,22 +168,6 @@ tbody {
     }
 }
 
-.category-list-item {
-   // background glass effect
-    background-color: rgba(0, 0, 0, 0.7);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-
-    border-top: 1px solid currentColor !important;
-    border-bottom: 1px solid currentColor !important;
-}
-
-.category-list-item,
-.subcategory-list-item {
-    border-left: 1px solid currentColor;
-    border-right: 1px solid currentColor;
-}
-
 .admin-content {
     // background glass effect
     background-color: rgba(0, 0, 0, 0.1);
