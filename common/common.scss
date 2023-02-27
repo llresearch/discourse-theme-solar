@@ -7,8 +7,12 @@ html {
     background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 3000px);
 }
 
-body::before {
+.desktop-view > body::before {
     margin-top: 14rem;
+}
+
+.mobile-view > body::before {
+    margin-top: 9rem;
 }
 
 #site-text-logo {
