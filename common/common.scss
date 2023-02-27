@@ -133,6 +133,10 @@ tbody {
     }
 }
 
+.category-list-item {
+    // todo
+}
+
 .latest-topic-list,
 .top-topic-list {
     .table-heading {
@@ -177,6 +181,14 @@ tbody {
 }
 
 .category-list {
+    th {
+        border-bottom: 0;
+    }
+
+    .category-name {
+        margin-top: 0.75rem;
+    }
+
     tbody {
         .category {
             // background glass effect
@@ -192,6 +204,13 @@ tbody {
             backdrop-filter: blur(10px);
         }
     }
+}
+
+.category-list-item {
+   // background glass effect
+    background-color: rgba(0, 0, 0, 0.7);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 
 .admin-content {
