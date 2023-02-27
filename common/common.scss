@@ -226,3 +226,21 @@ tbody {
     font-size: $font-up-2;
 }
 
+/**
+ * Admin panel
+ */
+.user-main .about.collapsed-info .details {
+    background: none;
+}
+
+.boxed.white {
+    background: none;
+}
+
+.admin-report-table, .report-body, .misc {
+    background: #141414;
+}
+
+.dashboard-reports .report {
+    background: #141414;
+}
