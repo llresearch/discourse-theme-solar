@@ -12,7 +12,7 @@ html {
     background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 3000px);
 }
 
-body:not(.docked) {
+body::before {
     margin-top: 14rem;
 }
 
