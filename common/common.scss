@@ -121,7 +121,7 @@ tbody {
     }
 
     th {
-        border-bottom: 1px solid;
+        border-bottom: 0;
     }
 
     td, td:first-of-type {
@@ -211,6 +211,12 @@ tbody {
     background-color: rgba(0, 0, 0, 0.7);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
+}
+
+.category-list-item,
+.subcategory-list-item {
+    border-left: 1px solid;
+    border-right: 1px solid;
 }
 
 .admin-content {
