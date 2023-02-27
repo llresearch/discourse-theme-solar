@@ -95,44 +95,6 @@ tbody {
     border-bottom: 1px solid var(--primary-300);
 }
 
-.desktop-view > .category-list {
-    .category-name {
-        color: var(--category-color);
-    }
-
-    tbody {
-        .category {
-            // fallback background colour
-            background-color: var(--secondary);
-            // apply borders
-            border-color: var(--secondary) !important;
-            border: 1px solid var(--secondary);
-            border-right: none;
-        }
-
-        .topics {
-            // fallback background colour
-            background-color: var(--secondary);
-            // apply borders
-            border-color: var(--secondary) !important;
-            border: 1px solid var(--secondary);
-            border-left: none;
-        }
-    }
-
-    th {
-        border-bottom: 0px;
-    }
-
-    td, td:first-of-type {
-        padding: 1rem;
-    }
-
-    tr {
-        // border: 1px solid var(--primary-low);
-    }
-}
-
 .category-list-item {
     // todo
 }
