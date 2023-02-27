@@ -5,6 +5,7 @@
 
 html {
     background: black;
+    font-size: 14px;
 }
 
 #main {
@@ -78,13 +79,10 @@ html {
 /**
  * Icons
  */
-.d-header-icons {
-    .d-icon {
-        color: var(--primary-medium);
-        font-size: $font-up-2;
-    }
+.d-icon {
+    color: var(--primary-medium);
+    font-size: $font-up-2;
 }
-
 
 /**
  * Categories
@@ -209,3 +207,13 @@ tbody {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
+
+
+/**
+ * Topic page
+ */
+
+ #topic-title h1 {
+    font-size: var(--font-up-2);
+    line-height: var(--line-height-large);
+ }
