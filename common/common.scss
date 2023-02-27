@@ -95,7 +95,7 @@ tbody {
     border-bottom: 1px solid var(--primary-300);
 }
 
-.category-list {
+.desktop-view > .category-list {
     .category-name {
         color: var(--category-color);
     }
@@ -129,7 +129,7 @@ tbody {
     }
 
     tr {
-        //border: 1px solid var(--primary-low);
+        // border: 1px solid var(--primary-low);
     }
 }
 
@@ -180,7 +180,7 @@ tbody {
     }
 }
 
-.category-list {
+.mobile-view > category-list {
     th {
         border-bottom: 0;
     }
@@ -212,8 +212,8 @@ tbody {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 
-    border-top: 1px solid currentColor;
-    border-bottom: 1px solid currentColor;
+    border-top: 1px solid currentColor !important;
+    border-bottom: 1px solid currentColor !important;
 }
 
 .category-list-item,
