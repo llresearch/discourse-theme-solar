@@ -38,14 +38,9 @@
     background-color: rgba(0, 0, 0, 0.7);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-
-    border-top: true !important;
-    border-bottom: true !important;
 }
 
 .category-list-item, .subcategory-list-item {
-    border-left: 1px solid;
-    border-right: 1px solid;
-    border-bottom: 1px solid;
-    border-top: 1px solid;
+    border-left: 1px solid var(--primary-low) !important;
+    border-right: 1px solid var(--primary-low) !important;
 }
