@@ -6,11 +6,16 @@
 html {
     background: black;
     font-size: 14px;
-    margin-top: 15rem;
 }
 
 #main {
     background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 3000px);
+}
+
+.discourse-root {
+    // apply margin-top in the discourse root to avoid a jump,
+    // when loading page appears during navigation to a new page.
+    margin-top: 15rem;
 }
 
 #site-text-logo {
