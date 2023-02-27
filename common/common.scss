@@ -35,7 +35,7 @@ html {
 }
 
 .sidebar-footer-wrapper .sidebar-footer-container {
-    background: #141414;
+    background: none;
 }
 
 .sidebar-footer-wrapper .sidebar-footer-container::before {
@@ -200,7 +200,6 @@ tbody {
     backdrop-filter: blur(10px);
 }
 
-
 /**
  * Topic page
  */
@@ -214,14 +213,16 @@ tbody {
  * Icons
  */
 .d-header-icons .d-icon {
-    font-size: $font-up-3;
+    font-size: $font-up-2;
 }
 
 .d-header .d-icon-home {
-    font-size: $font-up-3;
+    font-size: $font-up-2;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .header-sidebar-toggle button .d-icon {
-    font-size: $font-up-3;
+    font-size: $font-up-2;
 }
 
