@@ -39,8 +39,13 @@
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 
-    border-right: 1px solid var(--primary-low) !important;
-    border-left: 1px solid var(--primary-low) !important;
-    border-top: 1px solid var(--primary-low) !important;
-    border-right: 1px solid var(--primary-low) !important;
+    border-top: true !important;
+    border-bottom: true !important;
+}
+
+.category-list-item, .subcategory-list-item {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
 }
