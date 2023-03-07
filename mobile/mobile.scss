@@ -58,9 +58,9 @@
  */
 
 .hamburger-panel .revamped .sidebar-footer-container:before {
-    background: linear-gradient(to bottom, rgba(var(--secondary-very-high-rgb), 0), rgba(var(--secondary-very-high-rgb), 1));
+    background: none;
 }
 
-.sidebar-hamburger-dropdown .sidebar-footer-wrapper .sidebar-footer-container {
-    background: var(--secondary-very-high);
+.sidebar-footer-wrapper .sidebar-footer-container {
+    border-top: 1.5px solid var(--primary-300);
 }
