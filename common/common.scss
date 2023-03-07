@@ -110,7 +110,7 @@ tbody {
 
 .latest-topic-list {
     .table-heading {
-        border-bottom: 1px solid;
+        border-bottom: none;
         margin-bottom: 1rem;
     }
 
@@ -119,6 +119,10 @@ tbody {
         border: 1px solid var(--secondary);
         margin-bottom: 1rem;
     }
+}
+
+#.list-container {
+    border-top: 2px solid var(--primary-300)
 }
 
 /**
