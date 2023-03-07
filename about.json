@@ -12,16 +12,18 @@
   "color_schemes": {
     "SolarDark": {
       "primary": "f2f2f2",
-      "primary-medium": "f8f8f2",
       "secondary": "282a36",
-      "tertiary": "bd93f9",
+      "tertiary": "a78bfa",
       "quaternary": "8be9fd",
-      "header_background": "282a36",
-      "header_primary": "14151f",
+      "header_background": "000",
+      "header_primary": "FFFFFF",
       "highlight": "f1fa8c",
-      "danger": "ff5555",
+      "danger": "f87171",
       "success": "50fa7b",
-      "love": "ff79c6"
+      "love": "ff79c6",
+      "selected": "e9e9e9",
+      "hover": "f2f2f2",
+      "primary-medium": "f8f8f2"
     }
   },
   "modifiers": {
