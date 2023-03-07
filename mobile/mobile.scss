@@ -53,8 +53,16 @@
     margin-bottom: 1rem;
 }
 
+/**
+ * Dates
+ */
+
 .relative-date {
     color: var(--primary-low-mid-or-secondary-high);
+}
+
+.category-list-item.category .coldmap-high {
+    opacity: 1;
 }
 
 /**
